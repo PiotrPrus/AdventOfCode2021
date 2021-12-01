@@ -1,3 +1,5 @@
+package day01
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.size
