@@ -1,5 +1,3 @@
-package day01
-
 fun main() {
     fun part1(input: List<String>): Int {
         val list = input.map { it.toInt() }
@@ -21,11 +19,11 @@ fun main() {
     }
 
     // test
-    val testInput = readInput("day01/Day01_test")
+    val testInput = readInput("Day01_test")
     assert(part1(testInput) == 4)
     assert(part2(testInput) == 3)
 
-    val input = readInput("day01/Day01")
+    val input = readInput("Day01")
     println("Part 1: ${part1(input)}")
     println("Part 2: ${part2(input)}")
 }
